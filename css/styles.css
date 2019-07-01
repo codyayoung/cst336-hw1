@@ -25,9 +25,13 @@ div {
 	-webkit-animation: fadein 2s;
 }
 
-span.header_digits {
+span.main_header_digits {
 	-webkit-animation: colorchange 4s;
 	animation-fill-mode: forwards;
+}
+
+span.header_digits {
+	color: #13E7BD;
 }
 
 @keyframes fadein {
