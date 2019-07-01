@@ -1,28 +1,66 @@
 header, main, nav, footer {
 	text-align: center;
-	font-family: "Courier New", Courier, monospace;
+	font-family: 'Roboto Mono'; monospace;
 	font-size: 14px;
 }
 
 h1 {
 	font-family: 'Roboto Mono'; monospace;
 	font-size: 4em;
+	color: #4214A7;
 	margin-bottom: 0px;
 }
 
+h2 {
+	font-family: 'Roboto Mono'; monospace;
+	color: #14A78B;
+}
+
+#main_header {
+	-webkit-animation: fadein 3s;
+}
+
+@keyframes fadein {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+blockquote {
+	font-family: 'Roboto Mono'; monospace;
+	color: #A71430;
+	font-size: 1.2em;
+	align: left;
+}
+
 nav a {
-	padding:15px;
-	padding-bottom:4px;
-	font-size: 1.8em;
+	padding: 15px;
+	padding-bottom: 4px;
+	font-size: 1.5em;
 	text-decoration: none;
 	color: black;
 	
 }
 
+figcaption {
+	font-style: italic;
+}
+
 nav a:hover {
-	border-bottom:2px blue solid;
-	font-size: 2em;
-	transition: .2s;
+	border-bottom: 1px black solid;
+	font-size: 1.5em;
+	transition: .5s;
+}
+
+#intro_text{
+	text-align: left;
+}
+
+#x86_intro_text {
+	text-align: left;
+}
+
+#intro_source_link {
+	text-align: left;
 }
 
 main {
@@ -34,61 +72,14 @@ body {
 	background: white;
 }
 
-iframe {
-	display: block;
-	margin: 0px auto;
-}
-
-table {
-	margin: 0px auto;
-	font-family: "Courier New", Courier, monospace;
-	font-size: 14px;
-}
-
-#table-header {
-	background-color: #2BF3EA;
-}
-
-.table-row {
-	background-color: #34EEA2; 
-}
-
-td {
-	padding-right: 10px;
-	font-size: 1.3em;
-}
-
-td strong {
-	color: red;
-}
-
-ul {
+li {
 	width: 500px;
 	margin: 0px auto;
-	font-family: "Courier New", Courier, monospace;
+	font-family: 'Roboto Mono'; monospace;
 	font-size: 14px;
 	text-align: left;
 }
 
-.hobby1 {
-	color: #79A714;
-	font-weight: bold;
-}
-
-.hobby2 {
-	color: #14A78B;
-	font-weight: bold;
-}
-
-.hobby3 {
-	color: #4214A7;
-	font-weight: bold;
-}
-
-.hobby4 {
-	color: #A71430;
-	font-weight: bold;
-}
 
 footer {
 	font-family: "Courier", Courier, monospace;
