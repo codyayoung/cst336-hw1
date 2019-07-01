@@ -25,9 +25,19 @@ div {
 	-webkit-animation: fadein 2s;
 }
 
+span.header_digits {
+	-webkit-animation: colorchange 4s;
+	animation-fill-mode: forwards;
+}
+
 @keyframes fadein {
 	from {opacity: 0;}
 	to {opacity: 1;}
+}
+
+@keyframes colorchange {
+	from {color: #4214A7; }
+	to {color: #13E7BD; }
 }
 
 blockquote {
